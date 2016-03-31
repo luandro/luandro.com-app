@@ -25,7 +25,7 @@ class App extends Component {
             		{messageList.map((msg, key) => <Message key={key} {...msg} /> )}
             	</div>
             	<Footer typing={typing} handleChange={this.handleChange} handleSendForm={this.handleSendForm} userInput={userInput} />
-                <DevTools />
+                {/* <DevTools /> */}
             </div>
         );
     }
